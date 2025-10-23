@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ette</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+      color: white;
+      min-height: 100vh;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 20px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      background: linear-gradient(to right, #D4AF37, #F0E68C);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 1px;
+    }
+
+    .bio-section {
+      padding: 0 20px 30px;
+    }
+
+    .bio-card {
+      background: rgba(40, 40, 40, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+      border: 1px solid #444;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .bio-badge {
+      display: inline-block;
+      background: #333;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+      color: #ccc;
+    }
+
+    .bio-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: #fff;
+    }
+
+    .bio-text {
+      line-height: 1.7;
+      color: #ddd;
+      font-size: 1rem;
+    }
+
+    .social-section {
+      padding: 0 20px 40px;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .social-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 12px;
+      border-radius: 18px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .social-btn i {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .whatsapp { background: #25D366; }
+    .whatsapp:hover { background: #12b755; transform: scale(1.05); }
+
+    .facebook { background: #1877F2; }
+    .facebook:hover { background: #1367d3; transform: scale(1.05); }
+
+    .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .instagram:hover { transform: scale(1.05); }
+
+    .telegram { background: #0088cc; }
+    .telegram:hover { background: #006699; transform: scale(1.05); }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+    }
+
+    footer a {
+      color: #D4AF37;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: #F0E68C;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.3rem;
+      }
+      .social-btn {
+        padding: 18px 10px;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ette</h1>
+  </header>
+
+  <section class="bio-section">
+    <div class="bio-card">
+      <div class="bio-badge">Clothing (Brand)</div>
+      <h2 class="bio-title">ETTE | Men's Wear Wholesale</h2>
+      <p class="bio-text">
+        موديلات رجالية أنيقة بأسعار مناسبة<br>
+        شحن سريع لجميع المحافظات السورية🇸🇾<br>
+        البيع بالجملة فقط - تواصل معنا الآن📲
+      </p>
+    </div>
+  </section>
+
+  <section class="social-section">
+    <div class="social-grid">
+      <a href="https://whatsapp.com/channel/0029VbBYm6u3wtbDHv8GQW3U" target="_blank" class="social-btn whatsapp">
+        <i class="fab fa-whatsapp"></i>
+        واتساب
+      </a>
+      <a href="https://www.facebook.com/share/1KAYUPEVfw/" target="_blank" class="social-btn facebook">
+        <i class="fab fa-facebook-f"></i>
+        فيسبوك
+      </a>
+      <a href="https://www.instagram.com/ette_company?igsh=MXEwY2dvbXoweXIybg==" target="_blank" class="social-btn instagram">
+        <i class="fab fa-instagram"></i>
+        انستغرام
+      </a>
+      <a href="https://t.me/ETTE0933822884" target="_blank" class="social-btn telegram">
+        <i class="fab fa-telegram"></i>
+        تيليجرام
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>جميع الحقوق محفوظة © 2025</p>
+    <p>تم انشاء هذا الموقع بواسطة <a href="https://www.instagram.com/fateh.mouazen" target="_blank">فاتح مؤذن</a></p>
+  </footer>
+</body>
+</html>
+
